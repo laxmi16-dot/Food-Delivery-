@@ -1,0 +1,98 @@
+/* General Styling */
+.order-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .order-title {
+    font-size: 2.5rem;
+    color: #2a5298;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Categories Container */
+  .categories-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .category-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    min-width: 250px;
+    text-align: left;
+  }
+  
+  .category-title {
+    font-size: 1.8rem;
+    color: #ff6347;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Food Items */
+  .food-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .food-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .food-item:hover {
+    transform: scale(1.03);
+  }
+  
+  .food-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .food-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .food-name {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .food-price {
+    font-size: 1.1rem;
+    color: #2a5298;
+  }
+  
+  .order-button {
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .order-button:hover {
+    background-color: #ff4500;
+  }
+  
